@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscar Artículos</title>
+</head>
+<body>
+    <h1>Resultados de la Búsqueda</h1>
+    <ul>
+        {% for articulo in articulos %}
+            <li><a href="{% url 'vista_articulo' articulo.id %}">{{ articulo.titulo }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

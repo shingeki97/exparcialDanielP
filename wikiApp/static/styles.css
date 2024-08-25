@@ -1,24 +1,24 @@
 /* static/css/styles.css */
 
-/* Estilo para el título principal */
+
 h1 {
     font-family: 'Arial Black', sans-serif;
     color: #007bff;
     font-size: 2.5rem;
 }
 
-/* Estilo para el subtítulo "Vista Principal" */
+
 h2.h4 {
     font-size: 1.25rem;
     color: #343a40;
 }
 
-/* Estilo para el formulario de búsqueda */
+
 .form-inline input {
     margin-right: 10px;
 }
 
-/* Estilo para el botón */
+
 .btn {
     background-color: #090909;
     color: white;
